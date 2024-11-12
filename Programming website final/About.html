@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us - Unity for change</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Volunteer.html">Volunteer</a></li>
+                    <li><a href="Donate.html">Donate</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div class="slideshow-container">
+                <div class="slide" style="background-image: url('images/slide1.jpg')">
+                    <div class="caption">Making a difference in education</div>
+                </div>
+            
+                <div class="slide" style="background-image: url('images/slide2.jpg')">
+                    <div class="caption">Improving community health</div>
+                </div>
+            
+                <div class="slide" style="background-image: url('images/slide3.jpg')">
+                    <div class="caption">Promoting environmental sustainability</div>
+                </div>
+            
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            
+                <div class="dot-container">
+                    <button class="dot" onclick="currentSlide(0)"></button>
+                    <button class="dot" onclick="currentSlide(1)"></button>
+                    <button class="dot" onclick="currentSlide(2)"></button>
+                </div>
+            </div>
+
+        <section class="hero">
+            <h1>About Our NGO</h1>
+            <p>Dedicated to improving lives and communities</p>
+        </section>
+
+        <section class="mission">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>Our mission is to create lasting, positive change in communities by empowering individuals and groups through 
+                    education, health, and environmental conservation initiatives. We believe that by providing access to essential 
+                    resources and knowledge, we can help build a foundation for sustainable development and self-sufficiency. 
+                    Our programs are designed to address the unique needs of each community we serve, ensuring that our efforts 
+                    lead to meaningful, long-term improvements in the quality of life for all.
+                </p>
+            </div>
+        </section>
+
+        <section class="vision">
+            <div class="container">
+                <h2>Our Vision</h2>
+                <p>Our vision is a world where every individual, regardless of their background or circumstances, has access to the 
+                    resources and opportunities they need to thrive. We envision a future where education is accessible to all, 
+                    where health services reach the most vulnerable, and where environmental sustainability is a priority in 
+                    every community. Through our collective efforts, we aim to build a world that is more equitable, just, and 
+                    sustainable for current and future generations.
+                </p>
+            </div>
+        </section>
+
+        <section class="history">
+            <div class="container">
+                <h2>Our History</h2>
+                <p>Our story began in 2023 with a group of passionate individuals who wanted to make a difference in their local 
+                    community. What started as a small initiative to address immediate needs in education, health, and the 
+                    environment has since grown into a nationwide organization with a significant impact. Over the years, we have 
+                    expanded our reach, partnering with local governments, international organizations, and community leaders to 
+                    scale our programs and amplify our impact. Our history is a testament to the power of grassroots efforts and 
+                    the importance of community-driven development. As we look to the future, we remain committed to our founding 
+                    principles while continuously adapting to meet the evolving challenges of the communities we serve.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Volunteer.html">Volunteer</a></li>
+                    <li><a href="Donate.html">Donate</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@unityunitedforchange.org</p>
+                <p>Phone: +27-957-473-7272</p>
+            </div>
+        </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Community Development NGO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

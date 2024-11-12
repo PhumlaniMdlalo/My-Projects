@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home - Unity for change</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Projects.html">Projects</a></li>
+                    <li><a href="Volunteer.html">Volunteer</a></li>
+                    <li><a href="Donate.html">Donate</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div class="slideshow-container">
+                <div class="slide" style="background-image: url('images/slide1.jpg')">
+                    <div class="caption">Making a difference in education</div>
+                </div>
+            
+                <div class="slide" style="background-image: url('images/slide2.jpg')">
+                    <div class="caption">Improving community health</div>
+                </div>
+            
+                <div class="slide" style="background-image: url('images/slide3.jpg')">
+                    <div class="caption">Promoting environmental sustainability</div>
+                </div>
+            
+                <button class="prev" onclick="changeSlide(-1)">❮</button>
+                <button class="next" onclick="changeSlide(1)">❯</button>
+            
+                <div class="dot-container">
+                    <button class="dot" onclick="currentSlide(0)"></button>
+                    <button class="dot" onclick="currentSlide(1)"></button>
+                    <button class="dot" onclick="currentSlide(2)"></button>
+                </div>
+            </div>
+
+            <section class="hero">
+                <h1>Empowering Communities, Changing Lives</h1>
+                <p>Join us in our mission to create sustainable change and improve lives.</p>
+                <div class="buttons">
+                    <a href="Volunteer.html" class="btn btn-primary">Volunteer Now</a>
+                    <a href="Donate.html" class="btn btn-secondary">Donate</a>
+                </div>
+            </section>
+
+            <section class="intro">
+                <h2>Who We Are</h2>
+                <p>We are a passionate and driven NGO committed to empowering communities through holistic development initiatives. 
+                    Our focus spans three crucial pillars: education, health, and environmental sustainability. Each of these areas 
+                    represents a key component of a thriving society, and we believe that by addressing these needs, we can create 
+                    a foundation for long-term, sustainable progress.
+    
+                    <br><br>Our team comprises dedicated professionals, volunteers, and community leaders who share a common vision of a 
+                    better world. We work hand-in-hand with local communities, understanding their unique challenges and tailoring our 
+                    programs to meet their specific needs. Whether it’s providing educational resources to children in underserved 
+                    areas, improving healthcare access and awareness in rural communities, or promoting sustainable environmental 
+                    practices, we approach every project with the same level of commitment and passion.
+                    
+                    <br><br>Since our founding, we have grown into a trusted partner for communities across the region, known for our 
+                    collaborative approach and our unwavering dedication to creating positive change. We believe that real 
+                    transformation happens when people come together to work towards a common goal, and we are proud to be a catalyst 
+                    for that change.
+                    
+                    <br><br>Our work is not just about providing aid; it’s about empowering individuals and communities to take charge of 
+                    their futures. We strive to build capacity, foster resilience, and create opportunities that enable people to 
+                    improve their own lives. Through our efforts, we aim to build a world where every community has the resources, 
+                    knowledge, and support needed to thrive.
+                    
+                    <br><br>Join us on this journey to empower communities and change lives. Together, we can make a lasting impact 
+                    and build a brighter future for all. 
+                </p>
+            </section>
+
+            <section class="projects">
+                <h2>Our Impact</h2>
+                <div class="project-grid">
+                    <div class = "project-card">
+                        <img src="images/slide1.jpg" alt="Education Project">
+                        <h3>Education for all</h3>
+                        <p>Providing access to quality education in udeserved areas.</p>
+                        <a href="Projects.html" class="btn btn-medium">Learn more</a>
+                    </div>
+
+                    <div class = "project-card">
+                        <img src="images/slide2.jpg" alt="Comminity Project">
+                        <h3>Comminity Health</h3>
+                        <p>Improving healthcare access and awareness in rural communities.</p>
+                        <a href="Projects.html" class="btn btn-medium">Learn more</a>
+                    </div>
+
+                    <div class = "project-card">
+                        <img src="images/slide3.jpg" alt="Environment Project">
+                        <h3>Green Initiatives</h3>
+                        <p>Promoting sustainable practices and environmental conservation.</p>
+                        <a href="Projects.html" class="btn btn-medium">Learn more</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="Volunteer.html">Volunteer</a></li>
+                        <li><a href="Donate.html">Donate</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@unityunitedforchange.org</p>
+                    <p>Phone: +27-957-473-7272</p>
+                </div>
+            </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Community Development NGO. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
